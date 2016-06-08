@@ -91,9 +91,9 @@ end
 
 attNum = size(att,2);
 
-figPath = '.\figs\overall\';
+figPath = './figs/overall/';
 
-perfMatPath = '.\perfMat\overall\';
+perfMatPath = './perfMat/overall/';
 
 if ~exist(figPath,'dir')
     mkdir(figPath);
