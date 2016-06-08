@@ -4,7 +4,7 @@ clc
 
 addpath('./util');
 
-attPath = '.\anno\att\'; % The folder that contains the annotation files for sequence attributes
+attPath = './anno/att/'; % The folder that contains the annotation files for sequence attributes
 
 attName={'illumination variation'	'out-of-plane rotation'	'scale variation'	'occlusion'	'deformation'	'motion blur'	'fast motion'	'in-plane rotation'	'out of view'	'background clutter' 'low resolution'};
 
